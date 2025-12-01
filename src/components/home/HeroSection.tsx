@@ -11,7 +11,7 @@ export default function HeroSection() {
             <div className="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-md">
               <Sparkles className="h-5 w-5 text-arrasou-400" />
               <span className="text-sm font-medium text-gray-700">
-                Especialistas em Design de Sobrancelhas
+                Especialistas em Design de Sobrancelhas e micropigmentação
               </span>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function HeroSection() {
 
           <div className="mt-16 grid grid-cols-3 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
-              <p className="text-3xl sm:text-4xl font-bold text-arrasou-400 mb-2">+8</p>
+              <p className="text-3xl sm:text-4xl font-bold text-arrasou-400 mb-2">+12</p>
               <p className="text-sm text-gray-600">Anos de Experiência</p>
             </div>
             <div className="text-center">

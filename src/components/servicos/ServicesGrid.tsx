@@ -6,13 +6,13 @@ const services = [
     title: "Design de Sobrancelhas",
     description: "Modelagem completa com análise facial, medição e design personalizado para valorizar seus traços únicos.",
     duration: "45 min",
-    price: "R$ 80,00",
+    price: "R$ 45,00",
   },
   {
     title: "Design + Henna",
     description: "Design de sobrancelhas com aplicação de henna para preenchimento natural e duradouro.",
     duration: "60 min",
-    price: "R$ 120,00",
+    price: "R$ 60,00",
   },
   {
     title: "Coloração de Sobrancelhas",

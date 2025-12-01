@@ -37,7 +37,7 @@ export default function SobrePage() {
               Minha História
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Olá! Sou a Thays, apaixonada por design de sobrancelhas há mais de 8 anos. 
+              Olá! Sou a Thays, apaixonada por design de sobrancelhas há mais de 12 anos. 
               Minha jornada começou com um sonho: ajudar mulheres a se sentirem mais 
               confiantes e bonitas através do poder transformador de um olhar bem cuidado.
             </p>
@@ -57,7 +57,7 @@ export default function SobrePage() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow">
             <Award className="w-12 h-12 text-arrasou-400 mx-auto mb-4" />
-            <h3 className="text-xl font-bold text-gray-900 mb-2">+8 Anos</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-2">+12 Anos</h3>
             <p className="text-gray-600">De experiência na área</p>
           </div>
 
