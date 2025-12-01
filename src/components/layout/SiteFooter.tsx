@@ -63,8 +63,8 @@ export default function SiteFooter() {
               <li className="flex items-start gap-2 text-gray-400">
                 <MapPin className="h-5 w-5 text-arrasou-400 flex-shrink-0 mt-0.5" />
                 <span>
-                  Rua das Flores, 123<br />
-                  Centro - São Paulo/SP
+                  Baixada Santatis &<br />
+                  São Paulo/SP
                 </span>
               </li>
             </ul>
@@ -74,21 +74,14 @@ export default function SiteFooter() {
             <h3 className="font-bold mb-4">Redes Sociais</h3>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/arrasousobrancelhas"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-gray-800 rounded-full hover:bg-arrasou-400 transition-colors"
               >
                 <Instagram className="h-5 w-5" />
               </a>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 bg-gray-800 rounded-full hover:bg-arrasou-400 transition-colors"
-              >
-                <Facebook className="h-5 w-5" />
-              </a>
+              
             </div>
             <p className="text-gray-400 text-sm mt-4">
               Siga-nos nas redes sociais para dicas de beleza e novidades!
