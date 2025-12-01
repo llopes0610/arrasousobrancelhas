@@ -27,13 +27,13 @@ export default function AgendamentoPage() {
           <div className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition-shadow">
             <Phone className="w-10 h-10 text-arrasou-400 mx-auto mb-4" />
             <h3 className="font-bold text-gray-900 mb-2">WhatsApp</h3>
-            <p className="text-gray-600 text-sm mb-4">(11) 91731-2858</p>
+            <p className="text-gray-600 text-sm mb-4">(11) 95423-9295</p>
             <Button 
               asChild
               className="w-full bg-green-500 hover:bg-green-600"
             >
               <a 
-                href="https://wa.me/5511917312858?text=Olá! Gostaria de agendar um horário" 
+                href="https://wa.me/5511954239295?text=Olá! Gostaria de agendar um horário" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >

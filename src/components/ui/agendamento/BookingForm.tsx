@@ -77,7 +77,7 @@ export default function BookingForm() {
           id="whatsapp"
           required
           type="tel"
-          placeholder="(11) 91731-2858"
+          placeholder="(11) 95423-9295"
           value={formData.whatsapp}
           onChange={(e) => setFormData({ ...formData, whatsapp: e.target.value })}
         />

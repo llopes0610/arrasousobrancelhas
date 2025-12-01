@@ -31,7 +31,7 @@ export default function CTASection() {
             className="border-2 border-white text-white hover:bg-white hover:text-arrasou-500 px-8 py-6 text-lg"
           >
             <a 
-              href="https://wa.me/5511917312858?text=Olá! Gostaria de agendar um horário" 
+              href="https://wa.me/5511954239295?text=Olá! Gostaria de agendar um horário" 
               target="_blank" 
               rel="noopener noreferrer"
             >

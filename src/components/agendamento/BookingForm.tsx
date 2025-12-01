@@ -57,7 +57,7 @@ ${formData.notes ? `📝 *Observações:* ${formData.notes}` : ""}
 Aguardo confirmação da disponibilidade! 😊`;
 
     // Número do WhatsApp da designer (sem o 9 extra se necessário)
-    const phoneNumber = "5511917312858";
+    const phoneNumber = "5511954239295";
     
     // Codifica a mensagem para URL
     const encodedMessage = encodeURIComponent(message);
