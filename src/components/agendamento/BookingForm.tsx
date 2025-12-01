@@ -12,11 +12,18 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { toast } from "sonner";  // ✅ CORRETO
-import { Calendar, Clock, User, Phone } from "lucide-react";
+import { Calendar, Clock, User, Phone, Send } from "lucide-react";
+
+const services: Record<string, string> = {
+  design: "Design de Sobrancelhas",
+  "design-henna": "Design + Henna",
+  coloracao: "Coloração de Sobrancelhas",
+  alongamento: "Alongamento de Cílios",
+  limpeza: "Limpeza de Pele",
+  depilacao: "Depilação Facial",
+};
 
 export default function BookingForm() {
-  const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     whatsapp: "",
@@ -26,32 +33,40 @@ export default function BookingForm() {
     notes: "",
   });
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setLoading(true);
-
-    // Simular envio
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-
-    console.log("Dados do agendamento:", formData);
-
-    // ✅ Usar toast do Sonner
-    toast.success("Agendamento Recebido! 🎉", {
-      description: "Entraremos em contato em breve para confirmar seu horário. Obrigada!",
-    });
-
-    // Limpar formulário
-    setFormData({
-      name: "",
-      whatsapp: "",
-      service: "",
-      date: "",
-      time: "",
-      notes: "",
-    });
-
-    setLoading(false);
+  const formatDate = (dateString: string) => {
+    if (!dateString) return "";
+    const [year, month, day] = dateString.split("-");
+    return `${day}/${month}/${year}`;
   };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    // Monta a mensagem para o WhatsApp
+    const serviceName = services[formData.service] || formData.service;
+    
+    const message = `✨ *NOVO AGENDAMENTO - Arrasou Sobrancelhas* ✨
+
+👤 *Nome:* ${formData.name}
+📱 *WhatsApp:* ${formData.whatsapp}
+💅 *Serviço:* ${serviceName}
+📅 *Data:* ${formatDate(formData.date)}
+🕐 *Horário:* ${formData.time}
+${formData.notes ? `📝 *Observações:* ${formData.notes}` : ""}
+
+Aguardo confirmação da disponibilidade! 😊`;
+
+    // Número do WhatsApp da designer (sem o 9 extra se necessário)
+    const phoneNumber = "5511917312858";
+    
+    // Codifica a mensagem para URL
+    const encodedMessage = encodeURIComponent(message);
+    
+    // Abre o WhatsApp com a mensagem
+    window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, "_blank");
+  };
+
+  const isFormValid = formData.name && formData.whatsapp && formData.service && formData.date && formData.time;
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
@@ -78,7 +93,7 @@ export default function BookingForm() {
           id="whatsapp"
           required
           type="tel"
-          placeholder="(11) 91731-2858"
+          placeholder="(11) 99999-9999"
           value={formData.whatsapp}
           onChange={(e) => setFormData({ ...formData, whatsapp: e.target.value })}
         />
@@ -162,14 +177,15 @@ export default function BookingForm() {
 
       <Button
         type="submit"
-        disabled={loading}
-        className="w-full bg-arrasou-400 hover:bg-arrasou-500 text-white py-6 text-lg"
+        disabled={!isFormValid}
+        className="w-full bg-green-500 hover:bg-green-600 text-white py-6 text-lg gap-2"
       >
-        {loading ? "Enviando..." : "Confirmar Agendamento"}
+        <Send className="h-5 w-5" />
+        Enviar pelo WhatsApp
       </Button>
 
       <p className="text-sm text-gray-500 text-center">
-        * Campos obrigatórios. Entraremos em contato para confirmar o horário.
+        * Ao clicar, você será redirecionada para o WhatsApp com os dados preenchidos.
       </p>
     </form>
   );
