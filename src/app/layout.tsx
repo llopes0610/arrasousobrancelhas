@@ -112,7 +112,12 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${inter.variable} ${playfair.variable}`}>
       <head>
+        <meta name="google-site-verification" content="dtHhF7aIeSaW_NyKUtpFKQvY9_ypypCoGJPL-wy9wqg" />
         <link rel="canonical" href="https://arrasousobrancelhas.com.br" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
         <meta name="geo.region" content="BR-SP" />
         <meta name="geo.placename" content="Cotia, Praia Grande, Santos, São Vicente" />
         <meta name="theme-color" content="#F472B6" />
