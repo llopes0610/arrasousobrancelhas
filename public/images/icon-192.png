@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)file:///C:/Users/lucas/OneDrive/%C3%81rea%20de%20Trabalho/icomtemp.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Ícone Arrasou</title>
+</head>
+<body style="margin: 0; padding: 20px; background: #f0f0f0;">
+    
+<!-- Ícone 512x512 -->
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fundo gradiente rosa -->
+    <defs>
+        <lineargradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#F472B6;stop-opacity:1"></stop>
+            <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1"></stop>
+        </lineargradient>
+    </defs>
+    
+    <!-- Fundo circular -->
+    <circle cx="256" cy="256" r="256" fill="url(#grad1)"></circle>
+    
+    <!-- Sparkles (estrelinhas) -->
+    <g fill="white" opacity="0.9">
+        <!-- Sparkle 1 -->
+        <path d="M256 80 L266 110 L296 120 L266 130 L256 160 L246 130 L216 120 L246 110 Z"></path>
+        <!-- Sparkle 2 -->
+        <path d="M400 200 L408 220 L428 228 L408 236 L400 256 L392 236 L372 228 L392 220 Z"></path>
+        <!-- Sparkle 3 -->
+        <path d="M120 220 L128 240 L148 248 L128 256 L120 276 L112 256 L92 248 L112 240 Z"></path>
+    </g>
+    
+    <!-- Letra A estilizada -->
+    <text x="256" y="340" font-family="Georgia, serif" font-size="280" font-weight="bold" fill="white" text-anchor="middle">A</text>
+    
+    <!-- Texto "Arrasou" -->
+    <text x="256" y="420" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">ARRASOU</text>
+</svg>
+
+<br><br>
+
+<!-- Ícone 192x192 (versão menor, mesma proporção) -->
+<svg width="192" height="192" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <lineargradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#F472B6;stop-opacity:1"></stop>
+            <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1"></stop>
+        </lineargradient>
+    </defs>
+    
+    <circle cx="256" cy="256" r="256" fill="url(#grad2)"></circle>
+    
+    <g fill="white" opacity="0.9">
+        <path d="M256 80 L266 110 L296 120 L266 130 L256 160 L246 130 L216 120 L246 110 Z"></path>
+        <path d="M400 200 L408 220 L428 228 L408 236 L400 256 L392 236 L372 228 L392 220 Z"></path>
+        <path d="M120 220 L128 240 L148 248 L128 256 L120 276 L112 256 L92 248 L112 240 Z"></path>
+    </g>
+    
+    <text x="256" y="340" font-family="Georgia, serif" font-size="280" font-weight="bold" fill="white" text-anchor="middle">A</text>
+    
+    <text x="256" y="420" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">ARRASOU</text>
+</svg>
+
+<br><br>
+<p style="font-family: Arial; color: #333;">
+    <strong>Como converter para PNG:</strong><br>
+    1. Abra este arquivo no navegador<br>
+    2. Clique com botão direito em cada ícone<br>
+    3. "Salvar imagem como..."<br>
+    4. Salve como "icon-512.png" e "icon-192.png"<br>
+    5. Coloque na pasta public/
+</p>
+
+
+</body></html>

@@ -1,0 +1,16 @@
+# Robots.txt para Arrasou Sobrancelhas
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemaps
+Sitemap: https://arrasousobrancelhas.com.br/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Google Bot específico
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
