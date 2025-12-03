@@ -18,8 +18,8 @@ const services: Record<string, string> = {
   design: "Design de Sobrancelhas",
   "design-henna": "Design + Henna",
   coloracao: "Coloração de Sobrancelhas",
-  alongamento: "Alongamento de Cílios",
   limpeza: "Limpeza de Pele",
+  micropigmentacao: "Técnica de Micropgmentação",
   depilacao: "Depilação Facial",
 };
 
@@ -113,7 +113,7 @@ Aguardo confirmação da disponibilidade! 😊`;
             <SelectItem value="design">Design de Sobrancelhas</SelectItem>
             <SelectItem value="design-henna">Design + Henna</SelectItem>
             <SelectItem value="coloracao">Coloração de Sobrancelhas</SelectItem>
-            <SelectItem value="alongamento">Alongamento de Cílios</SelectItem>
+            <SelectItem value="micropigmentacao">Técnica de Micropgmentação</SelectItem>
             <SelectItem value="limpeza">Limpeza de Pele</SelectItem>
             <SelectItem value="depilacao">Depilação Facial</SelectItem>
           </SelectContent>

@@ -54,9 +54,12 @@ export default function AgendamentoPage() {
             <MapPin className="w-10 h-10 text-arrasou-400 mx-auto mb-4" />
             <h3 className="font-bold text-gray-900 mb-2">Localização</h3>
             <p className="text-gray-600 text-sm">
-              Rua das Flores, 123<br />
-              Centro - São Paulo/SP<br />
-              CEP: 01234-567
+              <br />
+              Cotia/SP<br />
+              Praia Grande/SP<br />
+              São Vicente/SP<br />
+              Santos/SP
+
             </p>
           </div>
         </div>
