@@ -1,4 +1,4 @@
-import { Shield, Heart, Award, Star } from "lucide-react";
+import { Shield, Heart, Award, MapPin } from "lucide-react";
 
 const reasons = [
   {
@@ -14,12 +14,12 @@ const reasons = [
   {
     icon: Award,
     title: "Profissional Experiente",
-    description: "Mais de 8 anos de experiência e formação especializada em técnicas modernas de design.",
+    description: "Mais de 12 anos de experiência e formação especializada em técnicas modernas de design.",
   },
   {
-    icon: Star,
-    title: "Resultados Naturais",
-    description: "Técnicas que respeitam a harmonia do seu rosto, valorizando sua beleza natural.",
+    icon: MapPin,
+    title: "Atendimento In Loco",
+    description: "Levo meu estúdio até você! Atendemos em Cotia, Praia Grande, São Vicente e Santos - SP.",
   },
 ];
 

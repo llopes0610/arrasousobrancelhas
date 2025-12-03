@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, MapPin } from "lucide-react";
 
 export default function CTASection() {
   return (
@@ -9,10 +9,19 @@ export default function CTASection() {
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 font-serif">
           Pronta para Transformar seu Olhar?
         </h2>
-        <p className="text-lg sm:text-xl mb-8 max-w-2xl mx-auto text-arrasou-50">
+        <p className="text-lg sm:text-xl mb-4 max-w-2xl mx-auto text-arrasou-50">
           Agende seu horário agora e descubra como é se sentir ainda mais confiante e bonita. 
           Estamos ansiosas para receber você!
         </p>
+        
+        {/* Destaque Atendimento In Loco */}
+        <div className="mb-8 inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full">
+          <MapPin className="h-5 w-5" />
+          <span className="font-semibold text-sm sm:text-base">
+            Atendimento In Loco em Cotia, Praia Grande, São Vicente e Santos
+          </span>
+        </div>
+
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button 
             asChild 

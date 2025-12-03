@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Sparkles, ArrowRight } from "lucide-react";
+import { Sparkles, ArrowRight, MapPin } from "lucide-react";
 
 export default function HeroSection() {
   return (
@@ -11,7 +11,7 @@ export default function HeroSection() {
             <div className="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-md">
               <Sparkles className="h-5 w-5 text-arrasou-400" />
               <span className="text-sm font-medium text-gray-700">
-                Especialistas em Design de Sobrancelhas e micropigmentação
+                Especialistas em Design de Sobrancelhas e Micropigmentação
               </span>
             </div>
           </div>
@@ -20,9 +20,21 @@ export default function HeroSection() {
             Realce sua Beleza Natural
           </h1>
           
-          <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 mb-4 max-w-2xl mx-auto leading-relaxed">
             Transforme seu olhar com design de sobrancelhas personalizado. 
-            Técnicas modernas, atendimento exclusivo e resultados que você merece.
+            Técnicas modernas de Micropigmentação, atendimento exclusivo e resultados que você merece.
+          </p>
+
+          {/* Destaque Atendimento In Loco */}
+          <div className="mb-8 inline-flex items-center gap-2 bg-gradient-to-r from-arrasou-400 to-arrasou-500 text-white px-6 py-3 rounded-full shadow-lg">
+            <MapPin className="h-5 w-5" />
+            <span className="font-semibold text-sm sm:text-base">
+              Atendimento In Loco: Levo meu estúdio até você!
+            </span>
+          </div>
+
+          <p className="text-base sm:text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+            Atendemos em <span className="font-bold text-arrasou-500">Cotia, Praia Grande, São Vicente e Santos - SP</span>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
