@@ -64,7 +64,7 @@ const services: Service[] = [
     description:
       "Técnica personalizada para definição e valorização das sobrancelhas.",
     duration: "50 minutos",
-    price: "R$ 180,00",
+    price: "R$ 190,00",
     category: "Micropigmentação",
     icon: Sparkles,
   },
@@ -78,7 +78,7 @@ const services: Service[] = [
     description:
       "Procedimento para realçar o contorno e a tonalidade natural dos lábios.",
     duration: "49 minutos",
-    price: "R$ 180,00",
+    price: "R$ 190,00",
     category: "Lábios",
     icon: Sparkles,
   },
