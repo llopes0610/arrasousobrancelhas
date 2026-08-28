@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import CalBooking from "@/components/agendamento/CalBooking";
 
 import {
-  CalendarCheck,
   Clock3,
   MapPin,
+  MessageCircle,
   ShieldCheck,
 } from "lucide-react";
 
@@ -39,7 +39,6 @@ export default function AgendamentoPage() {
           lg:pt-24
         "
       >
-        {/* Glow */}
         <div
           className="
             pointer-events-none
@@ -70,7 +69,7 @@ export default function AgendamentoPage() {
                   sm:text-xs
                 "
               >
-                Agenda Online
+                Agendamento
               </span>
 
               <span className="h-px w-10 bg-arrasou-gold" />
@@ -107,8 +106,9 @@ export default function AgendamentoPage() {
                 sm:leading-8
               "
             >
-              Selecione o serviço desejado e escolha diretamente
-              um dos horários disponíveis em nossa agenda.
+              Escolha o procedimento desejado e fale diretamente
+              com nossa equipe pelo WhatsApp para consultar os
+              horários disponíveis.
             </p>
           </div>
 
@@ -137,15 +137,15 @@ export default function AgendamentoPage() {
                 p-4
               "
             >
-              <CalendarCheck className="h-5 w-5 shrink-0 text-arrasou-gold" />
+              <MessageCircle className="h-5 w-5 shrink-0 text-arrasou-gold" />
 
               <div>
                 <p className="text-sm font-semibold">
-                  Reserva online
+                  Atendimento direto
                 </p>
 
                 <p className="mt-1 text-xs text-white/40">
-                  Escolha sem precisar aguardar
+                  Fale conosco pelo WhatsApp
                 </p>
               </div>
             </div>
@@ -166,11 +166,11 @@ export default function AgendamentoPage() {
 
               <div>
                 <p className="text-sm font-semibold">
-                  Horários disponíveis
+                  Consulte horários
                 </p>
 
                 <p className="mt-1 text-xs text-white/40">
-                  Atualizados em nossa agenda
+                  Encontre a melhor disponibilidade
                 </p>
               </div>
             </div>
@@ -195,7 +195,7 @@ export default function AgendamentoPage() {
                 </p>
 
                 <p className="mt-1 text-xs text-white/40">
-                  Sua reserva fica registrada
+                  Combine os detalhes com nossa equipe
                 </p>
               </div>
             </div>
@@ -232,7 +232,7 @@ export default function AgendamentoPage() {
               lg:p-9
             "
           >
-            <div className="mb-8">
+            <div className="mb-10">
               <p
                 className="
                   text-[10px]
@@ -242,7 +242,7 @@ export default function AgendamentoPage() {
                   text-arrasou-gold
                 "
               >
-                Passo 1
+                Nossos serviços
               </p>
 
               <h2 className="mt-3 font-serif text-3xl text-white">
@@ -250,8 +250,8 @@ export default function AgendamentoPage() {
               </h2>
 
               <p className="mt-3 max-w-xl text-sm leading-7 text-white/45">
-                Depois de escolher o procedimento, você poderá
-                consultar as datas e os horários disponíveis.
+                Selecione o procedimento desejado para iniciar
+                seu atendimento diretamente pelo WhatsApp.
               </p>
             </div>
 
@@ -277,7 +277,7 @@ export default function AgendamentoPage() {
 
             <p className="text-sm leading-6 text-white/40">
               Atendimento no Studio Arrasou Sobrancelhas —
-              Rua Júlio Prestes de Albuquerque, 185, Vila Mirim,
+              Av. Júlio Prestes de Albuquerque, 185, Vila Mirim,
               Praia Grande — SP.
             </p>
           </div>
