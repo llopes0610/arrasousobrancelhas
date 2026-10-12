@@ -53,7 +53,7 @@ const services: Service[] = [
     description:
       "Técnica para alinhamento e modelagem dos fios das sobrancelhas, proporcionando um visual definido, moderno e natural.",
     duration: "40 minutos",
-    price: "R$ 70,00",
+    price: "R$ 100,00",
     category: "Sobrancelhas",
     icon: Sparkles,
   },
@@ -64,7 +64,7 @@ const services: Service[] = [
     description:
       "Procedimento personalizado para definição e valorização das sobrancelhas, respeitando formato, proporções e identidade da cliente.",
     duration: "50 minutos",
-    price: "R$ 180,00",
+    price: "R$ 200,00",
     category: "Micropigmentação",
     icon: Sparkles,
   },
@@ -73,7 +73,7 @@ const services: Service[] = [
     description:
       "Procedimento desenvolvido para realçar o contorno e a tonalidade dos lábios, proporcionando aparência mais uniforme e definida.",
     duration: "49 minutos",
-    price: "R$ 180,00",
+    price: "R$ 200,00",
     category: "Lábios",
     icon: Sparkles,
   },
@@ -187,7 +187,7 @@ const services: Service[] = [
     description:
       "Tratamento voltado ao cuidado e renovação dos pés, proporcionando mais maciez, conforto e bem-estar.",
     duration: "60 minutos",
-    price: "R$ 30,00",
+    price: "R$ 50,00",
     category: "Unhas",
     icon: Footprints,
   },
