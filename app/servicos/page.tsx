@@ -88,6 +88,15 @@ const services: Service[] = [
     category: "Cílios",
     icon: Eye,
   },
+  {
+  title: "Lash Lifting",
+  description:
+    "Realça a curvatura natural dos cílios, proporcionando um olhar mais alongado, definido e elegante, sem necessidade de extensões.",
+  duration: "50 minutos",
+  price: "R$ 100,00",
+  category: "Cílios",
+  icon: Eye,
+},
 
   // ROSTO
   {
