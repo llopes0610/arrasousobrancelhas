@@ -175,6 +175,16 @@ const services: Service[] = [
     icon: Hand,
   },
   {
+  id: "alongamento-f1",
+  name: "Alongamento de Unhas Molde F1",
+  description:
+    "Alongamento de unhas com técnica Molde F1, proporcionando comprimento, resistência e acabamento natural, com formato personalizado e resultado elegante.",
+  duration: "120 minutos",
+  price: "R$ 130,00",
+  category: "Unhas",
+  icon: Sparkles,
+},
+  {
     id: "banho-gel",
     name: "Banho de Gel",
     description:
